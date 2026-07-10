@@ -284,3 +284,7 @@ GitHub: https://github.com/SUNANDA770
 *"Data becomes valuable only when transformed into insights that support better business decisions."*
 
 ## Project Screenshots
+
+## Project Status
+
+Completed SQL analysis project. Future enhancements include Python analytics, Excel dashboard, and Power BI reporting.
