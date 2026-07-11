@@ -231,17 +231,17 @@ The analytical outputs produced throughout this project support decision-making 
 
 # Repository Structure
 
-```
-Olist-SQL-Analytics
-│
-├── README.md
-├── Olist_project_sql.sql
-├── images/
-│   ├── schema.png
-│   ├── er_diagram.png
-│   └── sample_queries.png
-└── LICENSE
-```
+olist-sql-ecommerce-analysis
+
+├── data/
+├── notebooks/
+├── screenshots/
+├── sql/
+│   └── Olist_project_sql.sql
+├── .gitignore
+├── LICENSE
+└── README.md
+
 
 ---
 
