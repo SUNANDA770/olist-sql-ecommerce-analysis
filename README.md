@@ -288,3 +288,23 @@ GitHub: https://github.com/SUNANDA770
 ## Project Status
 
 Completed SQL analysis project. Future enhancements include Python analytics, Excel dashboard, and Power BI reporting.
+
+## Power BI Dashboard
+
+### Executive Dashboard
+![Executive Dashboard](screenshots/Screenshot 2026-07-25 132637.png)
+
+### Customer Analysis
+![Customer Analysis](screenshots/Screenshot 2026-07-25 133039.png)
+
+### Product Analysis
+![Product Analysis](screenshots/Screenshot 2026-07-25 133110.png)
+
+### Seller Analysis
+![Seller Analysis](screenshots/Screenshot 2026-07-25 133144.png)
+
+### Order Analysis
+![Order Analysis](screenshots/Screenshot 2026-07-25 133212.png)
+
+### Business Insights
+![Business Insights](screenshots/Screenshot 2026-07-25 133308.png)
