@@ -76,18 +76,15 @@ Business Question:
 Which product categories receive the highest number of delivered orders?
 */
 
-SELECT t.product_category_name_english AS product_category,
-COUNT(DISTINCT oi.order_id) AS total_delivered_orders
-FROM orders o
-JOIN order_items oi
-ON o.order_id = oi.order_id
-JOIN products p
-ON oi.product_id = p.product_id
-JOIN category_translation t
-ON p.product_category_name = t.product_category_name
-WHERE o.order_status = 'delivered'
-GROUP BY t.product_category_name_english
-ORDER BY total_delivered_orders DESC;
+select P.product_category_name,count(O.order_id) as total_delivered_orders
+from products as P
+join order_items as OI
+on P.product_id = OI.product_id 
+join orders as O
+on OI.order_id = O.order_id 
+where O.order_status= 'delivered'
+group by product_category_name
+order by count(O.order_id) desc;
 
 /* Business Insight:
 - A small number of product categories contribute the highest volume of completed sales.
